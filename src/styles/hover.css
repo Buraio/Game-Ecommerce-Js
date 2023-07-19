@@ -1,0 +1,30 @@
+/* Navigation */
+.button:focus {
+    border: none;
+}
+
+.button:hover {
+    background-color: #111;
+    color: var(--white);
+}
+
+.light-mode:hover {
+    transform: scale(1.1);
+    font-weight: 600;
+    transition-duration: 0.2s;
+}
+
+/* Showcase */
+.item:hover {
+    transform: translateY(-3px);
+}
+
+.add-to-cart:hover {
+    background-color: var(--primaryColorLight80);
+}
+
+.remove-item:hover {
+    color: var(--primaryColorLight);
+    text-decoration: underline;
+    cursor: pointer;
+}
