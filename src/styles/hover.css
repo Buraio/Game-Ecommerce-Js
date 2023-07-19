@@ -4,7 +4,7 @@
 }
 
 .button:hover {
-    background-color: var(--primaryColorLight);
+    background-color: #111;
     color: var(--white);
 }
 
@@ -21,12 +21,6 @@
 
 .add-to-cart:hover {
     background-color: var(--primaryColorLight80);
-}
-
-.search-button:hover {
-    background-color: var(--white);
-    border: 2px solid var(--primaryColorLight);
-    transform: scale(1.1);
 }
 
 .remove-item:hover {
