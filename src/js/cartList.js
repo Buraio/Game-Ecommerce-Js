@@ -1,4 +1,4 @@
-import { setShoppingCount, shoppingCount } from "./index.js";
+import { itemQuantity, setShoppingCount, shoppingCount } from "./index.js";
 import { renderCartItems } from "./renderItems.js";
 
 export const createCartItemElement = (id, img, name, price) => {
@@ -30,6 +30,7 @@ export const createCartItemElement = (id, img, name, price) => {
         const newShoppingCount = setShoppingCount(
             shoppingCount.filter((value) => value.id !== id)
         );
+        itemQuantity.innerHTML = shoppingCount.length;
 
         renderCartItems(newShoppingCount);
     });
