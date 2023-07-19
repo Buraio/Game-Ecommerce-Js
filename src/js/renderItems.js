@@ -2,8 +2,8 @@ import { createCartItemElement } from "./cartList.js";
 import { itemQuantity, shoppingCount, totalPriceElement } from "./index.js";
 import { createItemElement, createTags } from "./productList.js";
 
-const products = document.querySelector("#products");
-const shoppingList = document.querySelector("#shoppingList");
+const products = document.querySelector(".product-list");
+const shoppingList = document.querySelector(".shopping-list");
 
 export const renderCartItems = (arr) => {
     shoppingList.innerHTML = "";
@@ -30,7 +30,7 @@ export const renderItems = (arr) => {
         const item = createItemElement(img, name, description, price);
         createTags(item, tags);
 
-        const addToCartBtn = item.querySelector(".addToCart");
+        const addToCartBtn = item.querySelector(".add-to-cart");
 
         addToCartBtn.addEventListener("click", () => {
             const validateSameItem = shoppingCount.find((item) => {

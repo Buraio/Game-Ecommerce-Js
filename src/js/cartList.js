@@ -9,11 +9,11 @@ export const createCartItemElement = (id, img, name, price) => {
     const cartPrice = document.createElement("span");
     const cartRemoveItem = document.createElement("button");
 
-    cartItem.classList.add("cartItem");
-    cartImg.classList.add("cartImg");
-    cartItemDesc.classList.add("cartItemDesc");
-    cartName.classList.add("nameStrong");
-    cartRemoveItem.classList.add("removeItem");
+    cartItem.classList.add("cart-item");
+    cartImg.classList.add("cart-img");
+    cartItemDesc.classList.add("cart-item-desc");
+    cartName.classList.add("name-strong");
+    cartRemoveItem.classList.add("remove-item");
 
     cartImg.src = `./src/img/${img}`;
     cartName.innerText = name;

@@ -16,22 +16,6 @@ Conta com as seguintes características:
 
 -   **Carrinho** → Ao adicionar ou remover um produto, o carrinho é atualizado dinamicamente, assim como seu valor total e quantidade de itens.
 
-<!-- -   **Barra de pesquisa** → Com um input para colocar texto e um botão para pesquisar. -->
+-   **Barra de pesquisa** → Input e botão para pesquisa de jogos específicos.
 
-
-
-<!-- -   **Header** → Demonstrar os elementos na vitrine conforme o tipo clicado no header, por padrão iniciar em todos. -->
-
--   **Exemplos:**
-
-    1.  Caso clique em **calças**, deve demonstrar apenas os produtos que tenham a **tag calças** na vitrine.
-
-    2.  Caso clique em **camisetas**, deve demonstrar apenas os produtos que tenham a **tag camisetas** na vitrine.
-
--   **Barra de pesquisa** → Demonstrar os produtos na vitrine conforme o que for escrito na barra de pesquisa
-
--   **Exemplos:**
-
-    1.  Caso digite **Black Hat**, deve demonstrar apenas os produtos que tenham no **nome Black Hat** na vitrine.
-
-    2.  Caso digite **Shirt**, deve demonstrar apenas os produtos que tenham no **nome Shirt** na vitrine.
+-   **Header** → O usuário pode pesquisar seus jogos por categorias (ou tags) através da barra de navegação.

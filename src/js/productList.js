@@ -9,11 +9,11 @@ export const createItemElement = (img, name, description, price) => {
 
     item.classList.add("item");
     descriptionDiv.classList.add("description");
-    gameImg.classList.add("gameImg");
-    gameTitle.classList.add("gameTitle");
-    gameDescription.classList.add("gameDescription");
-    gamePrice.classList.add("gamePrice");
-    addToCart.classList.add("addToCart");
+    gameImg.classList.add("game-img");
+    gameTitle.classList.add("game-title");
+    gameDescription.classList.add("game-description");
+    gamePrice.classList.add("game-price");
+    addToCart.classList.add("add-to-cart");
 
     gameImg.src = `./src/img/${img}`;
     gameTitle.innerText = name;
@@ -33,7 +33,7 @@ export const createItemElement = (img, name, description, price) => {
 
 export const createTags = (item, tags) => {
     const tagDiv = document.createElement("div");
-    tagDiv.classList.add("tagDiv");
+    tagDiv.classList.add("tag-div");
 
     for (let i = 0; i < tags.length; i++) {
         const tag = document.createElement("small");

@@ -17,28 +17,30 @@
   <title>RogueRift - Try once, retry forever!</title>
 </head>
 <body>
-  <header id="navContainer">
-    <nav id="navBar">
+  <header class="header">
+    <nav class="nav-bar">
       <a href="index.html"><img src="src/assets/RogueRiftLogo1.png" 
-      id="logo"
+      class="logo"
       alt="Logo da loja RogueRift representando uma lápide e um círculo formado por duas setas"/></a>
 
-      <div id="lightMode">Light <span class="lightModeCircle"></span></div>
+      <div class="light-mode">Light <span class="light-mode-circle"></span></div>
 
-      <ul id="navButtons">
+      <ul class="nav-buttons">
         <li><a href="index.html"><button class="button">Todos</button></a></li>
         <li><button class="button categoryBtn">Categorias</button></li>
       </ul>
     </nav>
   </header>
-  <main id="container">
-      <ul id="products">
+  <main class="main">
+    <div class="main-container">
+
+      <ul class="product-list">
         
       </ul>
-      <aside id="shopping">
-        <div id="searchBar">
-          <input id="searchInput" type="text" name="search" placeholder="Pesquisar jogo">
-          <button id="searchButton"><span class="material-symbols-outlined">
+      <aside class="shopping-info">
+        <div class="search-bar">
+          <input id="search-input" type="text" name="search" placeholder="Pesquisar jogo">
+          <button class="search-button"><span class="material-symbols-outlined">
             search
             </span></button>
         </div>
@@ -46,17 +48,17 @@
           <h2>Carrinho <span class="material-symbols-outlined cart">
             shopping_cart
             </span></h2>
-          <ul id="shoppingList">
+          <ul class="shopping-list">
           </ul>
         </div>
-        <div id="shoppingInfo">
+        <div class="info">
           <span class="quantity">Quantidade: </span>
           <span class="quantity number">0</span>
           <span class="total">Total: </span>
           <span class="total value">R$ 0.00</span>
         </div>
       </aside>
-      </main>
+    </div>
   </main>
   <script type="module" src="./src/js/index.js"></script>
 </body>
