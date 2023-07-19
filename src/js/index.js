@@ -6,6 +6,7 @@ import { searchFilter } from "./searchFilter.js";
 export const itemQuantity = document.querySelector(".number");
 export const totalPriceElement = document.querySelector(".value");
 
+export const tagList = [];
 export let shoppingCount = [];
 
 export const setShoppingCount = (newValue) => {

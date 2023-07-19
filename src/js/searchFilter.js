@@ -1,8 +1,8 @@
 import { gameData } from "./database.js";
 import { renderItems } from "./renderItems.js";
 
-const searchInput = document.querySelector("#searchInput");
-const searchBtn = document.querySelector("#searchButton");
+const searchInput = document.querySelector(".search-input");
+const searchBtn = document.querySelector(".search-button");
 
 export const searchFilter = () => {
     searchInput.addEventListener("input", (e) => {
